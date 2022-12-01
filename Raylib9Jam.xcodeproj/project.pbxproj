@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		617E15922939270600B63054 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 617E15912939270600B63054 /* main.cpp */; };
+		617E159A2939271A00B63054 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617E15992939271A00B63054 /* OpenGL.framework */; };
+		617E159C2939272000B63054 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617E159B2939272000B63054 /* Cocoa.framework */; };
+		617E159E2939272400B63054 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617E159D2939272400B63054 /* CoreVideo.framework */; };
+		617E15A02939272800B63054 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617E159F2939272800B63054 /* IOKit.framework */; };
+		617E15A22939275F00B63054 /* libraylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 617E15A12939275F00B63054 /* libraylib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,49 @@
 /* Begin PBXFileReference section */
 		617E158E2939270600B63054 /* Raylib9Jam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raylib9Jam; sourceTree = BUILT_PRODUCTS_DIR; };
 		617E15912939270600B63054 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		617E15992939271A00B63054 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		617E159B2939272000B63054 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		617E159D2939272400B63054 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		617E159F2939272800B63054 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		617E15A12939275F00B63054 /* libraylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraylib.a; path = "raylib-4.2.0/src/libraylib.a"; sourceTree = "<group>"; };
+		617E15A42939286F00B63054 /* Vector4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vector4.hpp; path = "raylib-cpp-4.2.6/include/Vector4.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15A52939286F00B63054 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Matrix.hpp; path = "raylib-cpp-4.2.6/include/Matrix.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15A62939286F00B63054 /* Camera2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Camera2D.hpp; path = "raylib-cpp-4.2.6/include/Camera2D.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15A72939286F00B63054 /* Wave.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Wave.hpp; path = "raylib-cpp-4.2.6/include/Wave.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15A82939286F00B63054 /* raymath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = raymath.hpp; path = "raylib-cpp-4.2.6/include/raymath.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15A92939286F00B63054 /* Material.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Material.hpp; path = "raylib-cpp-4.2.6/include/Material.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15AA2939286F00B63054 /* Window.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Window.hpp; path = "raylib-cpp-4.2.6/include/Window.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15AB2939286F00B63054 /* Texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Texture.hpp; path = "raylib-cpp-4.2.6/include/Texture.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15AC2939286F00B63054 /* Model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Model.hpp; path = "raylib-cpp-4.2.6/include/Model.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15AD2939286F00B63054 /* Rectangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Rectangle.hpp; path = "raylib-cpp-4.2.6/include/Rectangle.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15AE2939286F00B63054 /* VrStereoConfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = VrStereoConfig.hpp; path = "raylib-cpp-4.2.6/include/VrStereoConfig.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15AF2939286F00B63054 /* raylib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = raylib.hpp; path = "raylib-cpp-4.2.6/include/raylib.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B02939286F00B63054 /* Mesh.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Mesh.hpp; path = "raylib-cpp-4.2.6/include/Mesh.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B12939286F00B63054 /* RayCollision.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RayCollision.hpp; path = "raylib-cpp-4.2.6/include/RayCollision.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B22939286F00B63054 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Shader.hpp; path = "raylib-cpp-4.2.6/include/Shader.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B32939286F00B63054 /* Color.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Color.hpp; path = "raylib-cpp-4.2.6/include/Color.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B42939286F00B63054 /* Ray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Ray.hpp; path = "raylib-cpp-4.2.6/include/Ray.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B52939286F00B63054 /* Camera3D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Camera3D.hpp; path = "raylib-cpp-4.2.6/include/Camera3D.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B62939286F00B63054 /* Vector2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vector2.hpp; path = "raylib-cpp-4.2.6/include/Vector2.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B72939286F00B63054 /* RenderTexture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RenderTexture.hpp; path = "raylib-cpp-4.2.6/include/RenderTexture.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B82939286F00B63054 /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Music.hpp; path = "raylib-cpp-4.2.6/include/Music.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15B92939286F00B63054 /* Functions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Functions.hpp; path = "raylib-cpp-4.2.6/include/Functions.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15BA2939286F00B63054 /* Image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Image.hpp; path = "raylib-cpp-4.2.6/include/Image.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15BB2939286F00B63054 /* Text.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Text.hpp; path = "raylib-cpp-4.2.6/include/Text.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15BC2939286F00B63054 /* raylib-cpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = "raylib-cpp.hpp"; path = "raylib-cpp-4.2.6/include/raylib-cpp.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15BD2939286F00B63054 /* Mouse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Mouse.hpp; path = "raylib-cpp-4.2.6/include/Mouse.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15BE2939286F00B63054 /* RaylibException.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RaylibException.hpp; path = "raylib-cpp-4.2.6/include/RaylibException.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15BF2939286F00B63054 /* AudioStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AudioStream.hpp; path = "raylib-cpp-4.2.6/include/AudioStream.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C02939287000B63054 /* Vector3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vector3.hpp; path = "raylib-cpp-4.2.6/include/Vector3.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C12939287000B63054 /* ModelAnimation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ModelAnimation.hpp; path = "raylib-cpp-4.2.6/include/ModelAnimation.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C22939287000B63054 /* Touch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Touch.hpp; path = "raylib-cpp-4.2.6/include/Touch.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C32939287000B63054 /* Sound.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Sound.hpp; path = "raylib-cpp-4.2.6/include/Sound.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C42939287000B63054 /* Gamepad.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Gamepad.hpp; path = "raylib-cpp-4.2.6/include/Gamepad.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C52939287000B63054 /* AudioDevice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AudioDevice.hpp; path = "raylib-cpp-4.2.6/include/AudioDevice.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C62939287000B63054 /* raylib-cpp-utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = "raylib-cpp-utils.hpp"; path = "raylib-cpp-4.2.6/include/raylib-cpp-utils.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C72939287000B63054 /* BoundingBox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BoundingBox.hpp; path = "raylib-cpp-4.2.6/include/BoundingBox.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C82939287000B63054 /* TextureUnmanaged.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TextureUnmanaged.hpp; path = "raylib-cpp-4.2.6/include/TextureUnmanaged.hpp"; sourceTree = SOURCE_ROOT; };
+		617E15C92939287000B63054 /* Font.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Font.hpp; path = "raylib-cpp-4.2.6/include/Font.hpp"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +80,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617E15A22939275F00B63054 /* libraylib.a in Frameworks */,
+				617E15A02939272800B63054 /* IOKit.framework in Frameworks */,
+				617E159E2939272400B63054 /* CoreVideo.framework in Frameworks */,
+				617E159C2939272000B63054 /* Cocoa.framework in Frameworks */,
+				617E159A2939271A00B63054 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +96,7 @@
 			children = (
 				617E15902939270600B63054 /* Raylib9Jam */,
 				617E158F2939270600B63054 /* Products */,
+				617E15982939271A00B63054 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +111,67 @@
 		617E15902939270600B63054 /* Raylib9Jam */ = {
 			isa = PBXGroup;
 			children = (
+				617E15A32939284000B63054 /* ext */,
 				617E15912939270600B63054 /* main.cpp */,
 			);
 			path = Raylib9Jam;
+			sourceTree = "<group>";
+		};
+		617E15982939271A00B63054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				617E15A12939275F00B63054 /* libraylib.a */,
+				617E159F2939272800B63054 /* IOKit.framework */,
+				617E159D2939272400B63054 /* CoreVideo.framework */,
+				617E159B2939272000B63054 /* Cocoa.framework */,
+				617E15992939271A00B63054 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		617E15A32939284000B63054 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				617E15C52939287000B63054 /* AudioDevice.hpp */,
+				617E15BF2939286F00B63054 /* AudioStream.hpp */,
+				617E15C72939287000B63054 /* BoundingBox.hpp */,
+				617E15A62939286F00B63054 /* Camera2D.hpp */,
+				617E15B52939286F00B63054 /* Camera3D.hpp */,
+				617E15B32939286F00B63054 /* Color.hpp */,
+				617E15C92939287000B63054 /* Font.hpp */,
+				617E15B92939286F00B63054 /* Functions.hpp */,
+				617E15C42939287000B63054 /* Gamepad.hpp */,
+				617E15BA2939286F00B63054 /* Image.hpp */,
+				617E15A92939286F00B63054 /* Material.hpp */,
+				617E15A52939286F00B63054 /* Matrix.hpp */,
+				617E15B02939286F00B63054 /* Mesh.hpp */,
+				617E15AC2939286F00B63054 /* Model.hpp */,
+				617E15C12939287000B63054 /* ModelAnimation.hpp */,
+				617E15BD2939286F00B63054 /* Mouse.hpp */,
+				617E15B82939286F00B63054 /* Music.hpp */,
+				617E15B42939286F00B63054 /* Ray.hpp */,
+				617E15B12939286F00B63054 /* RayCollision.hpp */,
+				617E15C62939287000B63054 /* raylib-cpp-utils.hpp */,
+				617E15BC2939286F00B63054 /* raylib-cpp.hpp */,
+				617E15AF2939286F00B63054 /* raylib.hpp */,
+				617E15BE2939286F00B63054 /* RaylibException.hpp */,
+				617E15A82939286F00B63054 /* raymath.hpp */,
+				617E15AD2939286F00B63054 /* Rectangle.hpp */,
+				617E15B72939286F00B63054 /* RenderTexture.hpp */,
+				617E15B22939286F00B63054 /* Shader.hpp */,
+				617E15C32939287000B63054 /* Sound.hpp */,
+				617E15BB2939286F00B63054 /* Text.hpp */,
+				617E15AB2939286F00B63054 /* Texture.hpp */,
+				617E15C82939287000B63054 /* TextureUnmanaged.hpp */,
+				617E15C22939287000B63054 /* Touch.hpp */,
+				617E15B62939286F00B63054 /* Vector2.hpp */,
+				617E15C02939287000B63054 /* Vector3.hpp */,
+				617E15A42939286F00B63054 /* Vector4.hpp */,
+				617E15AE2939286F00B63054 /* VrStereoConfig.hpp */,
+				617E15A72939286F00B63054 /* Wave.hpp */,
+				617E15AA2939286F00B63054 /* Window.hpp */,
+			);
+			path = ext;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +351,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/raylib-4.2.0/src",
+					"$(PROJECT_DIR)/raylib-cpp-4.2.6/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/raylib-4.2.0/src",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,6 +367,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/raylib-4.2.0/src",
+					"$(PROJECT_DIR)/raylib-cpp-4.2.6/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/raylib-4.2.0/src",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
