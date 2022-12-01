@@ -1,0 +1,11 @@
+## User settings
+xcuserdata/
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj
+
+# extra dirs
+raylib-4.2.0
+raylib-cpp-4.2.6
